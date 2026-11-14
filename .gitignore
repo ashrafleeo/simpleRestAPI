@@ -1,0 +1,40 @@
+# Maven / Java build output
+target/
+build/
+*.class
+*.jar
+hs_err_pid*
+
+# Local environment and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.sts4-cache/
+.apt_generated/
+.vscode/
+nbproject/private/
+.nb-gradle/
+
+# Operating systems
+.DS_Store
+Thumbs.db
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Maven wrapper download
+.mvn/wrapper/maven-wrapper.jar
